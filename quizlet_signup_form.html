@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abongile Mavela">
+    <title>Log in to Quizlet | Quizlet</title>
+    <meta content="Quizlet has study tools to help you learn anything. 
+    Improve your results and reach your goals today with flashcards,
+    practice tests and expert-written solutions." name="description">
+    <link rel="icon" href="favicon.ico">
+
+     <!-- fonts -->
+     <link as="font" crossorigin="anonymous" href="https://assets.quizlet.com/_next/static/media/hurmegeosans-no2-400.70b8c5c1.woff2" 
+     rel="preload" type="font/woff2">
+     <link as="font" crossorigin="anonymous" href="https://assets.quizlet.com/_next/static/media/hurmegeosans-no2-400.85194c42.woff2" 
+     rel="preload" type="font/woff2">
+     <link as="font" crossorigin="anonymous" href="https://assets.quizlet.com/_next/static/media/hurmegeosans-no2-600.91becca0.woff2"
+      rel="preload" type="font/woff2">
+      <link as="font" crossorigin="anonymous" href="https://assets.quizlet.com/_next/static/media/hurmegeosans-no2-600.e647fc28.woff2" 
+      rel="preload" type="font/woff2">
+      <link as="font" crossorigin="anonymous" href="https://assets.quizlet.com/_next/static/media/hurmegeosans-no2-700.36a1d2ca.woff2"
+       rel="preload" type="font/woff2">
+
+     <!-- external css -->
+     <link rel="stylesheet" href="style.css">
+
+     <!--font fontawesome icons-->
+<script src="https://kit.fontawesome.com/5e4a242428.js" crossorigin="anonymous"></script>
+
+     <!-- css reset all elements -->
+    <style>
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left">
+
+          <h1 class="heading-text">Dress casually, <br /> study <br />seriously.</h1>
+
+          <div class = "footer-text"  style="display: inline">
+            <span>QUIZLET</span>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="login-heading">
+            <span class = "sign_up Login" href = "quizlet_signup_form.html">Sign Up</span>
+            <span class = "Login" title="You are currently on the log In page">Log In</span>
+          </div>
+
+          
+        <div class="google">
+          <a tabindex="0" href="https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-2096926242%3A1706314641163092&access_type=online&approval_prompt=auto&client_id=520305074949.apps.googleusercontent.com&o2v=1&redirect_uri=https%3A%2F%2Fquizlet.com%2Fgoogle-login&response_type=code&scope=profile+email&service=lso&state=%7B%22state%22%3A%226deM8UmCD6xN56eWwcPA6D%22%2C%22reauth%22%3Afalse%2C%22from%22%3A%22https%3A%5C%2F%5C%2Fquizlet.com%5C%2Flatest%22%2C%22signupOrigin%22%3A%22global-signup-modal-google%22%2C%22screenName%22%3A%22Login%5C%2Fshow%22%7D&theme=glif&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPLJ4aqNwRx6hMTvmvfoOXedpnq_zq9dNcTCf5sddjfZ7oGG8xmL77hJ9simR8-s-i4yyx0hglXnSMnoiB4_-nJA9aJv6T9OmGFc-2_9kSw0Q0SKmJ9NPaUVS46FXvAXGUSXXl6A3GanDMOOVQtDh7sTx-IjcPPHPdP327J-oHAitppBtM4JcofDZQMdcHVK6B24argIjjwhjus5HHDOHKT0tY-Uj_ZP3geNoYVipf--XGxLntDbUqKQj1plhuIRksjEclLIgCM_gLmsYpG6EHEfn-QC10FBrHqFp8Ws0LoqxIBa7OM_9LtpHgUMS8yBBycxX6bkNKScqzPtB14E7Bfpn1cLHzQWRQwBxiEy5b86J46mZ4r6PYLuoZjOE70iVQi_95mZEdU56SvMeKOdLejsQ6B_FuIFBUBwj73ijnUnbz-0Qc%26as%3DS-2096926242%253A1706314641163092%26client_id%3D520305074949.apps.googleusercontent.com%26theme%3Dglif%23&app_domain=https%3A%2F%2Fquizlet.com&rart=ANgoxcdAH80PCWKvyvgQ0B2XvtmKDBy3YW5NLmiwNig98tno3JiShtM2XGqILjprquiJH-zp5cA95czJnODM60t6ozdFp3rU9zn31E9j5dVWYxXX91Uqmg8">
+              <img id = "google-logo" src="icons8-google-48.png" alt="google png image logo">
+              <span>Log in with Google</span>
+            </a>
+        </div>
+
+        <div class="facebook">
+          <a id="facebook-button" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=2232594215&kid_directed_site=0&app_id=2232594215&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.10%2Fdialog%2Foauth%3Fclient_id%3D2232594215%26state%3D6deM8UmCD6xN56eWwcPA6D%26response_type%3Dcode%26sdk%3Dphp-sdk-5.6.2%26redirect_uri%3Dhttps%253A%252F%252Fquizlet.com%252Ffb-login%26scope%3Demail%252Cpublic_profile%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D2659a9ac-9eb9-465b-8835-5c10ed2ab980%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fquizlet.com%2Ffb-login%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D6deM8UmCD6xN56eWwcPA6D%23_%3D_&display=page&locale=en_GB&pl_dbl=0">
+            <img id = "facebook-logo" src="icons8-facebook-48.png" alt="facebook png image logo">
+            <span>Log in with Facebook</span>
+          </a>
+      </div>
+
+      
+      <div class="apple">
+        <a id="apple-button" href="https://appleid.apple.com/auth/authorize?client_id=com.quizlet.client&redirect_uri=https%3A%2F%2Fquizlet.com&response_type=code%20id_token&state=6deM8UmCD6xN56eWwcPA6D&scope=name%20email&nonce=6deM8UmCD6xN56eWwcPA6D&response_mode=web_message&frame_id=eff8b9b5-cf68-4687-bc62-0d1d6e0b92c2&m=11&v=1.5.5"
+        target="popup" onclick="window.open('https://appleid.apple.com/auth/authorize?client_id=com.quizlet.client&redirect_uri=https%3A%2F%2Fquizlet.com&response_type=code%20id_token&state=6deM8UmCD6xN56eWwcPA6D&scope=name%20email&nonce=6deM8UmCD6xN56eWwcPA6D&response_mode=web_message&frame_id=5a70f478-1634-496c-813d-b6ed2271214c&m=11&v=1.5.5','popup','width=600,height=700,scrollbars=no,resizable=no'); return false;">
+          <img id = "apple-logo" src="icons8-apple-48.png" alt="apple png image logo">
+          <span>Log in with Apple</span>
+        </a>
+    </div>
+
+    <div class="or_email_login" >
+      
+      <span > or email </span>
+
+    </div>
+  
+    <div class = "credentials">
+
+     <form action="" method="post">
+
+      <div id = "user-input-one">
+      <label for="email/username" >Email/Username</label><br />
+      <input type="text" id="name" name="email/username" required  placeholder="Enter your username / Email address" >
+    </div>
+
+    <div id = "user-input-two">
+      <label for="password" title = "click here to reset your password" >Forgot Password</label>
+      <input type="password"  minlength="5" maxlength="50" id = "myInput" required placeholder="Enter your password">
+      <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password" onclick="myFunction()" title = "click to hide/show"></span>
+    </div>
+
+    <div id = "terms-and-conditions">
+      By clicking Log in, you accept Quizlet's  <span  id = "Terms"><a href="https://quizlet.com/tos" target="_blank">Terms of Service</a>   
+      </span> and <span id = "Terms"><a href="https://quizlet.com/privacy" target="_blank">Privacy Policy</a> </span>
+    </div>
+
+     <div class = "login-button">
+      <a href=""> Login </a>
+     </div>
+    
+     </form>
+
+     </div>
+
+      </div>
+
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+      </script>
+    
+</body>
+</html>
