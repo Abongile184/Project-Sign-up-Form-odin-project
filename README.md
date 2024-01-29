@@ -1,9 +1,12 @@
+For this project i did not do as per instructions instead i just did something that was alitte but more challanging 
+i replicated a sign up/ login form from a very popular website called quizlet but i was not able to make it mobile responsive:
+
 # Project-Sign-up-Form-odin-project
 Project: Sign-up Form Intermediate HTML and CSS Course
 
 Introduction
 This project is intended to give you a chance to flex some of the new items you’ve been absorbing over the past few lessons.
-This time it’s a sign-up form for an imaginary service. i did my own design based on a popular website called quizlet but its not mobile responsive 
+This time it’s a sign-up form for an imaginary service. i
 
 
 Step 1: Set up and planning
