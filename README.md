@@ -1,5 +1,6 @@
-For this project i did not do as per instructions instead i just did something that was alitte but more challanging 
-i replicated a sign up/ login form from a very popular website called quizlet but i was not able to make it mobile responsive:
+For this project i did not do as per instructions instead i just did something that was a litte but more challanging 
+i replicated a sign up/ login form from a very popular website called quizlet then added some features of my own
+but i was not able to make it mobile responsive:
 
 # Project-Sign-up-Form-odin-project
 Project: Sign-up Form Intermediate HTML and CSS Course
