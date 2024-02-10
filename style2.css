@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'HurmeGeosansNo2', sans-serif; 
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+.left, .right {
+    display: flex;
+    flex: 50% 1;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.right{
+    overflow-y:scroll
+    
+}
+
+.left {
+    background-image: url('quizlet background.png');
+    flex: 50% 1;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* left side */
+.heading-text {
+    position: absolute;
+    margin: 3.5%;
+    color: #282e3e;
+    font-weight: 700;
+    font-size: 2.8rem;
+    -webkit-letter-spacing: normal;
+    -moz-letter-spacing: normal;
+    -ms-letter-spacing: normal;
+    letter-spacing: normal;
+}
+
+
+h1 {
+    display: block;
+    font-weight: 700; 
+    font-family: 'HurmeGeosansNo2', sans-serif; 
+}
+
+
+.footer-text{
+    position: absolute;
+    top: 680px;
+    left: 60px;
+    width: 200px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: 'HurmeGeosansNo2', sans-serif;
+    color: white;
+
+}
+
+/* right side */
+
+.right{
+    display: inline;
+   
+}
+
+.login-heading{
+    position: relative;
+    left: 120px;
+    top: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'HurmeGeosansNo2', sans-serif;
+    color: #586380;
+}
+
+
+
+.form-containter{
+    position: relative;
+    top: 160px;
+    text-align: center;
+    
+}
+
+#user-input-one{
+    margin-top: -40px;
+}
+#user-input-two, #user-input-four, #user-input-six, #user-input-seven{
+    margin-top: 20px;
+}
+
+
+#user-input-three{
+    margin-top: 20px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#user-input-three label {
+    margin-right: 38px; /* Adjust as needed */
+    color: #586380;
+    font-size: .875rem;
+    font-weight: 600;
+    white-space: nowrap; /* Prevent label from wrapping */
+}
+
+#user-input-three select {
+    width: 120px; /* Adjust width as needed */
+    padding: 10px; /* Adjust padding as needed */
+    margin: 30px 10px; /* Adjust margin as needed */
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    outline: none;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #586380;
+}
+
+
+#user-input-four label{
+    margin-right: 508px; /* Adjust as needed */
+    color: #586380;
+    font-size: .875rem;
+    font-weight: 600;
+    white-space: nowrap; 
+}
+
+#user-input-five {
+    margin-top: 20px;
+    
+}
+
+#user-input-five label{
+    margin-right: 480px; 
+    color: #586380;
+    font-size: .875rem;
+    font-weight: 600;
+    white-space: nowrap; 
+}
+
+
+#user-input-six label{
+    margin-right: 480px; 
+    color: #586380;
+    font-size: .875rem;
+    font-weight: 600;
+    white-space: nowrap; 
+}
+
+
+input[type="text"], input[type="email"] {
+    width: 70%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:#F5F5F5;
+    border: none;
+    outline:none;
+}
+
+
+/* to prevent the toogle icon/eye from changing the password field when pressed*/
+#user-input-six input[type="password"] {
+    width: 70%; /* Or adjust the width as needed */
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+
+.field-icon {
+    margin-left: -30px; /* Adjust as needed */
+    margin-top: auto;
+    position: relative;
+    z-index: 2;
+}
+
+label[for="name"]{
+    margin-right: 505px;
+    color:#586380;
+  font-size: .875rem;
+  font-weight:600;
+  
+}
+
+label[for="surname"]{
+    margin-right: 486px;
+    color:#586380;
+    font-size: .875rem;
+    font-weight:600;
+}
+
+/*input field validation*/
+input:focus {
+    outline:none;
+    border-bottom: 2px solid red;
+  }
+  
+  input:required:valid {
+    outline:none;
+    border-bottom: 2px solid red;
+    border-color: green;
+  }
+  input:invalid {
+    border-color: red;
+  }  
+
+
+#user-input-seven, #user-input-eight{
+    margin-top: 20px; /* Adjust as needed */
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type="checkbox"]{
+    margin-left: -44px;
+}
+
+label [for="check-uncheck-box"]{
+    text-align: left;
+}
+
+#user-input-eight input[type="checkbox"]{
+    margin-left: -218px;
+}
+
+.sign-up-button, button{
+    margin-top: 30px;
+    border:1px solid white;
+    border-radius: 15px;
+  }
+  
+  .sign-up-button>button{
+    padding: 18px 260px;
+      background: #4255ff;
+      color: #fff;
+  }
+  
+  .sign-up-button>button:hover{
+    background-color: #423ed8;
+  }
+
+
+  a:link, a:visited {
+    color: #586380;
+    border: 2px solid #d9dde8;
+    border-radius:15px;
+    padding: 18px 172px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    font-size: .875rem;
+  }
+  
+  a:hover, a:active {
+    background-color: #2e385614;
+    color: #586380;
+    text-decoration: none;
+  
+  }
+  
+  a:active{
+    border: 2px solid #4255ff;
+    color: #586380;
+  }
+
+
+#login-selection:link, #login-selection:visited{
+    background-color: white;
+}
+
+#login-selection:hover, #login-selection:active{
+    background-color: #0000;
+}
