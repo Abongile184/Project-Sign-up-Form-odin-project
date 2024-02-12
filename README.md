@@ -1,6 +1,8 @@
 For this project i did not do as per instructions instead i just did something that was a litte but more challanging 
 i replicated a sign up/ login form from a very popular website called quizlet then added some features of my own
 but i was not able to make it mobile responsive: https://abongile184.github.io/Project-Sign-up-Form-odin-project/
+due to browsers being different. this form may look misaligned but if not then it show look as coded. i included a normalise.css file to reset all 
+browser default styles, to ensure consistent default styles across different browsers.
 
 # Project-Sign-up-Form-odin-project
 Project: Sign-up Form Intermediate HTML and CSS Course
